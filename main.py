@@ -1,37 +1,13 @@
-first_name = "Zayar"
-last_name = " Win"
-age = 20
+name = 'Zayar Win'
+# slice can be used with array [start:end:step]
 
-name = first_name + last_name
-attractive = False
+new_name = name[0:5:1]
+print(new_name)
 
-role, senior, salary = "Developer", False, 0
+website1 = "http://google.com"
+website2 = "http://facebook.com"
 
-username = input("Enter your name : ")
-age = input("Enter your age : ")
-height = input("Enter your height : ")
+slice = slice(7, -4)
 
-print("Your name is " + username)
-print('Your age is ' + age)
-print("Your height is " + height + "cm tall")
-
-# print(len(name))
-# print(name.count('Z'))
-# print(name.capitalize())
-# print(name.upper())
-# print(name.lower())
-# print(name.isalpha())
-# print(name.replace('Z', 'L'))
-# print(name*3)
-
-# print(role)
-# print(senior)
-# print(salary)
-
-# print(name)
-# print(age)
-# print(attractive)
-
-# print('hello ', first_name + last_name)
-# print(type(first_name))
-# print(type(age))
+print(website1[slice])
+print(website2[slice])
