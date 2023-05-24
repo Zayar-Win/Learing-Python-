@@ -1,13 +1,10 @@
-name = 'Zayar Win'
-# slice can be used with array [start:end:step]
+age = int(input('Enter you age : '))
 
-new_name = name[0:5:1]
-print(new_name)
-
-website1 = "http://google.com"
-website2 = "http://facebook.com"
-
-slice = slice(7, -4)
-
-print(website1[slice])
-print(website2[slice])
+if age == 100:
+    print('You are century old!!!')
+elif age >= 18:
+    print("Yor are an adult!")
+elif age > 0:
+    print('You are a child')
+else:
+    print('Who are you?')
