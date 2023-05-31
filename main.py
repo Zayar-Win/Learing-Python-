@@ -1,10 +1,12 @@
-age = int(input('Enter you age : '))
+phone_number = '123-456-789'
 
-if age == 100:
-    print('You are century old!!!')
-elif age >= 18:
-    print("Yor are an adult!")
-elif age > 0:
-    print('You are a child')
-else:
-    print('Who are you?')
+for i in phone_number:
+    if i == '-':
+        continue
+    print(i, end="")
+
+for i in range(20):
+    if i == 10:
+        pass
+    else:
+        print(i)
